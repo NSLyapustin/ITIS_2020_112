@@ -81,10 +81,10 @@
             </objects>
             <point key="canvasLocation" x="928.98550724637687" y="93.75"/>
         </scene>
-        <!--View Controller-->
+        <!--Detail View Controller-->
         <scene sceneID="Wr0-Tm-aVR">
             <objects>
-                <viewController id="eTA-u5-l1M" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="DetailViewController" id="eTA-u5-l1M" customClass="DetailViewController" customModule="ImageLoadingProject" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="t6d-wO-gnr">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -113,6 +113,10 @@
                             <constraint firstItem="d0h-ra-sE0" firstAttribute="centerY" secondItem="t6d-wO-gnr" secondAttribute="centerY" id="zJF-rT-SE7"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="progressBar" destination="d0h-ra-sE0" id="2qo-Ik-jJe"/>
+                        <outlet property="scrollView" destination="8df-gI-dNw" id="zN1-lA-0r6"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="UCO-s5-MPl" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>

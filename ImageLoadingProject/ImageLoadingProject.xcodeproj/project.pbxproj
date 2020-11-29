@@ -15,6 +15,7 @@
 		AEF3A31B2562D706007CCD92 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AEF3A3192562D706007CCD92 /* LaunchScreen.storyboard */; };
 		AEF3A3242562DBB3007CCD92 /* ImageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEF3A3232562DBB3007CCD92 /* ImageCell.swift */; };
 		AEF3A3282562E4D4007CCD92 /* URLDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEF3A3272562E4D4007CCD92 /* URLDetailsViewController.swift */; };
+		E8EAFC05256FCE2E00FD5663 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8EAFC04256FCE2E00FD5663 /* DetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		AEF3A31C2562D706007CCD92 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AEF3A3232562DBB3007CCD92 /* ImageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCell.swift; sourceTree = "<group>"; };
 		AEF3A3272562E4D4007CCD92 /* URLDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLDetailsViewController.swift; sourceTree = "<group>"; };
+		E8EAFC04256FCE2E00FD5663 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +71,7 @@
 				AEF3A3172562D706007CCD92 /* Assets.xcassets */,
 				AEF3A3192562D706007CCD92 /* LaunchScreen.storyboard */,
 				AEF3A31C2562D706007CCD92 /* Info.plist */,
+				E8EAFC04256FCE2E00FD5663 /* DetailViewController.swift */,
 			);
 			path = ImageLoadingProject;
 			sourceTree = "<group>";
@@ -146,6 +149,7 @@
 				AEF3A3132562D705007CCD92 /* ViewController.swift in Sources */,
 				AEF3A3242562DBB3007CCD92 /* ImageCell.swift in Sources */,
 				AEF3A30F2562D705007CCD92 /* AppDelegate.swift in Sources */,
+				E8EAFC05256FCE2E00FD5663 /* DetailViewController.swift in Sources */,
 				AEF3A3112562D705007CCD92 /* SceneDelegate.swift in Sources */,
 				AEF3A3282562E4D4007CCD92 /* URLDetailsViewController.swift in Sources */,
 			);
@@ -297,6 +301,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = J62PVJ69GK;
 				INFOPLIST_FILE = ImageLoadingProject/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -316,6 +321,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = J62PVJ69GK;
 				INFOPLIST_FILE = ImageLoadingProject/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
